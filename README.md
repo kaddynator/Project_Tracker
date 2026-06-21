@@ -156,7 +156,10 @@ This skill wasn't hand-coded in a vacuum — it was built through the **BotLearn
 
 ## 🎤 Hackathon Presentation Notes
 
-The full talk track, demo timing, and Q&A prep live in [`demo/HACKATHON.md`](demo/HACKATHON.md) — read it before you present.
+The full talk track, demo timing, and Q&A prep:
+
+- [`demo/PRESENTATION.md`](demo/PRESENTATION.md) — stage-by-stage presentation guide with exact words, timing, and Q&A answers
+- [`demo/HACKATHON.md`](demo/HACKATHON.md) — background context, architecture narrative, and slide notes
 
 **60-second demo flow:**
 1. Show the blank Asana workspace
