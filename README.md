@@ -93,22 +93,44 @@ Then open [app.asana.com](https://app.asana.com) — the **Acme Corp** project i
 
 ## 🧰 The Skill: `asana-api`
 
-The heart of this repo is [`skill/SKILL.md`](skill/SKILL.md) — a 1,336-line skill definition that gives an AI agent full command of Asana. It covers:
+> **Your AI agent just got a project manager, an ops assistant, and a billing clerk — all in one skill.**
 
-- **Tasks** — create, update, complete, assign, due dates
-- **Projects** — create, configure, archive
-- **Sections** — create, reorder, assign tasks
-- **Comments** (stories) — post updates and kickoff notes
-- **Tags** — label and organize work
-- **Webhooks** — subscribe to real-time changes
-- **Custom fields** — structured metadata on tasks and projects
-- **Dependencies** — block/unblock task relationships
-- **Subtasks** — nested task hierarchies
-- **Attachments** — link files and assets
-- **Portfolios** — roll projects up into portfolios
-- **Search** — typeahead and advanced search across the workspace
+The `asana-api` skill is a 1,336-line instruction file that teaches your AI agent to speak fluent Asana. Not just "create a task" fluent. We're talking *close a deal → full project scaffold in 30 seconds* fluent.
 
-➡️ **Full definition:** [`skill/SKILL.md`](skill/SKILL.md)
+**As a solopreneur, here's what changes the day you install this:**
+
+- You stop context-switching into admin mode every time you close a client
+- Your Monday morning review goes from 45 minutes of clicking to one sentence: *"What's overdue and what needs to move this week?"*
+- Invoices get scheduled the moment a project is created — not three weeks later when you finally remember
+- Every project follows the same structure, every time — no more "wait, did I add the billing section?"
+
+**The skill gives your agent full command of Asana — the entire lifecycle:**
+
+| What you say | What the agent does |
+|---|---|
+| *"Set up the Acme project"* | Creates project, 4 sections, 12 tasks, due dates, kickoff comment |
+| *"What's due this week across all my clients?"* | Queries all tasks, filters by due date, returns a ranked list |
+| *"Mark the SEO audit complete and notify the client section"* | Updates task status, posts a comment on the project |
+| *"Add a subtask under 'Blog post 1' for keyword research"* | Creates subtask with parent link and assignee |
+| *"What's the status of the Acme project?"* | Reads project status updates, surfaces last activity |
+| *"Tag everything in the billing section as high priority"* | Bulk-tags tasks using custom fields |
+
+**Under the hood — everything the skill covers:**
+
+- **Tasks** — create, update, complete, assign, set due dates, add followers
+- **Projects** — spin up, configure, archive, update status
+- **Sections** — structure your workflow phases, reorder, move tasks between them
+- **Comments** — post client-facing updates, kickoff notes, progress pings
+- **Custom fields** — track priority, revenue value, project stage — anything you need
+- **Subtasks** — break big deliverables into atomic steps
+- **Dependencies** — block task B until task A is done, automatically
+- **Tags** — label and filter work across clients and projects
+- **Webhooks** — get your agent notified the moment a task changes, a deadline slips, or a client comments
+- **Portfolios** — see all your active client engagements in one view
+- **Search** — find anything across your entire workspace in natural language
+- **Attachments** — link files, briefs, and assets directly to tasks
+
+➡️ **Full reference:** [`skill/SKILL.md`](skill/SKILL.md)
 
 ---
 
