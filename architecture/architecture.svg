@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" width="1100" height="620" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+
+  <!-- Background -->
+  <rect width="1100" height="620" fill="#ffffff" rx="12"/>
+
+  <!-- Title -->
+  <text x="48" y="44" font-size="18" font-weight="700" fill="#1e1e2e">Project Tracker — AI Agent Architecture</text>
+  <text x="48" y="66" font-size="13" fill="#6b7280">One natural language sentence → full Asana project in under 30 seconds</text>
+
+  <!-- ── BOX 1: User ── -->
+  <rect x="32" y="110" width="140" height="90" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="102" y="148" text-anchor="middle" font-size="26">👤</text>
+  <text x="102" y="170" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Solo Founder</text>
+  <text x="102" y="188" text-anchor="middle" font-size="11" fill="#64748b">You</text>
+
+  <!-- Arrow 1→2 with label -->
+  <line x1="175" y1="155" x2="238" y2="155" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="206" y="146" text-anchor="middle" font-size="10" fill="#94a3b8">natural</text>
+  <text x="206" y="157" text-anchor="middle" font-size="10" fill="#94a3b8">language</text>
+
+  <!-- ── BOX 2: AI Agent ── -->
+  <rect x="240" y="100" width="170" height="110" rx="12" fill="#eef2ff" stroke="#4f46e5" stroke-width="2.5"/>
+  <text x="325" y="130" text-anchor="middle" font-size="13" font-weight="700" fill="#4f46e5">🤖 AI Agent</text>
+  <text x="325" y="148" text-anchor="middle" font-size="12" fill="#3730a3">(Claude Code)</text>
+  <line x1="255" y1="158" x2="395" y2="158" stroke="#c7d2fe" stroke-width="1"/>
+  <text x="325" y="173" text-anchor="middle" font-size="11" fill="#4338ca">Interprets intent</text>
+  <text x="325" y="188" text-anchor="middle" font-size="11" fill="#4338ca">Plans API sequence</text>
+
+  <!-- Arrow 2→3 with label -->
+  <line x1="412" y1="155" x2="474" y2="155" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="443" y="146" text-anchor="middle" font-size="10" fill="#94a3b8">loads</text>
+  <text x="443" y="157" text-anchor="middle" font-size="10" fill="#94a3b8">skill</text>
+
+  <!-- ── BOX 3: Skill ── -->
+  <rect x="476" y="100" width="170" height="110" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="561" y="130" text-anchor="middle" font-size="13" font-weight="700" fill="#d97706">📦 asana-api</text>
+  <text x="561" y="148" text-anchor="middle" font-size="12" fill="#b45309">SKILL.md</text>
+  <line x1="491" y1="158" x2="631" y2="158" stroke="#fde68a" stroke-width="1"/>
+  <text x="561" y="173" text-anchor="middle" font-size="11" fill="#92400e">BotLearn</text>
+  <text x="561" y="188" text-anchor="middle" font-size="11" fill="#92400e">marketplace</text>
+
+  <!-- Arrow 3→4 with label -->
+  <line x1="648" y1="155" x2="710" y2="155" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="679" y="146" text-anchor="middle" font-size="10" fill="#94a3b8">REST</text>
+  <text x="679" y="157" text-anchor="middle" font-size="10" fill="#94a3b8">calls</text>
+
+  <!-- ── BOX 4: maton.ai ── -->
+  <rect x="712" y="100" width="170" height="110" rx="12" fill="#ecfeff" stroke="#0891b2" stroke-width="2.5"/>
+  <text x="797" y="130" text-anchor="middle" font-size="13" font-weight="700" fill="#0891b2">🌐 maton.ai</text>
+  <text x="797" y="148" text-anchor="middle" font-size="12" fill="#0e7490">Gateway</text>
+  <line x1="727" y1="158" x2="867" y2="158" stroke="#a5f3fc" stroke-width="1"/>
+  <text x="797" y="173" text-anchor="middle" font-size="11" fill="#155e75">Single Bearer token</text>
+  <text x="797" y="188" text-anchor="middle" font-size="11" fill="#155e75">Handles OAuth</text>
+
+  <!-- Arrow 4→5 with label -->
+  <line x1="884" y1="155" x2="946" y2="155" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="915" y="146" text-anchor="middle" font-size="10" fill="#94a3b8">Asana</text>
+  <text x="915" y="157" text-anchor="middle" font-size="10" fill="#94a3b8">API v1.0</text>
+
+  <!-- ── BOX 5: Asana ── -->
+  <rect x="948" y="100" width="120" height="110" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="1008" y="135" text-anchor="middle" font-size="24">✅</text>
+  <text x="1008" y="158" text-anchor="middle" font-size="13" font-weight="700" fill="#16a34a">Asana</text>
+  <line x1="963" y1="168" x2="1053" y2="168" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="1008" y="183" text-anchor="middle" font-size="11" fill="#166534">Project lives</text>
+  <text x="1008" y="198" text-anchor="middle" font-size="11" fill="#166534">here</text>
+
+  <!-- Vertical arrow from Asana box down to result box -->
+  <line x1="1008" y1="213" x2="1008" y2="258" stroke="#16a34a" stroke-width="2" marker-end="url(#arrGreen)"/>
+
+  <!-- ── RESULT BOX ── -->
+  <rect x="560" y="260" width="480" height="290" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+
+  <!-- result box title -->
+  <rect x="560" y="260" width="480" height="36" rx="14" fill="#16a34a"/>
+  <rect x="560" y="282" width="480" height="14" fill="#16a34a"/>
+  <text x="800" y="283" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">📁  Client: Acme Corp — 3-Month SEO Retainer</text>
+
+  <!-- section rows -->
+  <!-- Discovery -->
+  <rect x="580" y="312" width="200" height="60" rx="8" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="590" y="332" font-size="12" font-weight="600" fill="#15803d">🔍 Discovery &amp; Audit</text>
+  <text x="594" y="350" font-size="11" fill="#166534">• Technical SEO audit</text>
+  <text x="594" y="364" font-size="11" fill="#166534">• Keyword research (50)</text>
+
+  <!-- Content -->
+  <rect x="800" y="312" width="220" height="60" rx="8" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="810" y="332" font-size="12" font-weight="600" fill="#15803d">📝 Content Production</text>
+  <text x="814" y="350" font-size="11" fill="#166534">• Blog post 1 — pillar page</text>
+  <text x="814" y="364" font-size="11" fill="#166534">• Blog posts 2, 3, 4</text>
+
+  <!-- Reporting -->
+  <rect x="580" y="392" width="200" height="60" rx="8" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="590" y="412" font-size="12" font-weight="600" fill="#15803d">📊 Reporting</text>
+  <text x="594" y="430" font-size="11" fill="#166534">• Month 1 analytics report</text>
+  <text x="594" y="444" font-size="11" fill="#166534">• Final delivery report</text>
+
+  <!-- Billing -->
+  <rect x="800" y="392" width="220" height="60" rx="8" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="810" y="412" font-size="12" font-weight="600" fill="#15803d">💰 Billing</text>
+  <text x="814" y="430" font-size="11" fill="#166534">• Invoice 1/3 — $1,500 (Jun)</text>
+  <text x="814" y="444" font-size="11" fill="#166534">• Invoice 2/3, 3/3</text>
+
+  <!-- Stats row -->
+  <rect x="580" y="472" width="440" height="40" rx="8" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="800" y="497" text-anchor="middle" font-size="12" font-weight="600" fill="#15803d">1 project · 4 sections · 12 tasks · 3 invoices · 1 kickoff comment</text>
+
+  <!-- Time badge -->
+  <rect x="580" y="522" width="440" height="16" rx="4" fill="#15803d"/>
+  <text x="800" y="534" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">⚡  Set up in under 30 seconds from a single natural language sentence</text>
+
+  <!-- Connecting arrow from maton box down to result box (curved) -->
+  <path d="M 797 213 Q 797 245 780 258" stroke="#16a34a" stroke-width="1.5" fill="none" stroke-dasharray="5,3" marker-end="url(#arrGreen)"/>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#16a34a"/>
+    </marker>
+  </defs>
+
+</svg>

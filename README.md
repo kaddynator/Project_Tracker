@@ -59,47 +59,7 @@ Here's what the agent does the moment you hit enter:
 
 ## 🏗️ Architecture
 
-```
-┌──────────────┐     natural language      ┌──────────────────────────┐
-│              │  "Acme Corp said yes.  →  │   🤖 AI Agent             │
-│  👤 You      │   Set everything up."     │   (Claude Code)           │
-│  Solo        │ ─────────────────────►    │                          │
-│  Founder     │                           │   reads + reasons about  │
-└──────────────┘                           │   user intent             │
-                                           └────────────┬─────────────┘
-                                                        │ loads
-                                                        ▼
-                                           ┌──────────────────────────┐
-                                           │   📦 asana-api skill      │
-                                           │   (SKILL.md)             │
-                                           │   from BotLearn          │
-                                           │   marketplace            │
-                                           └────────────┬─────────────┘
-                                                        │ structured
-                                                        │ REST calls
-                                                        ▼
-                                           ┌──────────────────────────┐
-                                           │   🌐 maton.ai Gateway     │
-                                           │                          │
-                                           │   Single Bearer token    │
-                                           │   Handles Asana OAuth    │
-                                           │   transparently          │
-                                           └────────────┬─────────────┘
-                                                        │ Asana
-                                                        │ REST API v1.0
-                                                        ▼
-                              ┌─────────────────────────────────────────┐
-                              │  ✅ Asana                                │
-                              │                                         │
-                              │  📁 Client: Acme Corp — SEO Retainer   │
-                              │  ├─ 🔍 Discovery & Audit   (3 tasks)   │
-                              │  ├─ 📝 Content Production  (3 tasks)   │
-                              │  ├─ 📊 Reporting           (3 tasks)   │
-                              │  └─ 💰 Billing             (3 tasks)   │
-                              │                                         │
-                              │  12 tasks · due dates · kickoff note   │
-                              └─────────────────────────────────────────┘
-```
+![Architecture](architecture/architecture.svg)
 
 **The key move:** maton.ai handles the Asana OAuth dance. The agent never touches Asana credentials directly — one `MATON_API_KEY` gives it full access to the Asana REST surface.
 
