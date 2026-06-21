@@ -14,13 +14,11 @@ This is the hackathon build for **BotLearn**, the AI Agent University at [botlea
 
 ---
 
-## 🎬 Watch the Demo
+## 🎬 Demo
 
-> **▶️ 45-second demo video:** [`media/asana-skill-demo.mp4`](media/asana-skill-demo.mp4)
->
-> GitHub doesn't play MP4 inline in a README — **download the file and play it locally** to watch the agent build the "Acme Corp" project live, end to end, in real time.
+<video src="https://github.com/kaddynator/Project_Tracker/releases/download/v1.0.0/asana-skill-demo.mp4" controls width="100%"></video>
 
-*The demo runs against a real, live Asana workspace (`ssdi`, workspace GID `596034346419711`) — nothing is mocked.*
+*45-second short — watch the agent build the full Acme Corp project live. Runs against a real Asana workspace, nothing mocked.*
 
 ---
 
@@ -61,29 +59,49 @@ Here's what the agent does the moment you hit enter:
 
 ## 🏗️ Architecture
 
-> Open [`architecture/architecture.excalidraw`](architecture/architecture.excalidraw) at [excalidraw.com](https://excalidraw.com) for the interactive diagram.
-
 ```
-You ──natural language──► Claude Code (AI Agent)
-                                   │
-                           asana-api skill (SKILL.md)
-                           (installed from BotLearn)
-                                   │
-                          maton.ai Gateway
-                          (single Bearer token, handles OAuth)
-                                   │
-                          Asana REST API v1.0
-                                   │
-                       ┌─────────────────────────────┐
-                       │ Project: Acme Corp           │
-                       │  ├─ 🔍 Discovery & Audit     │
-                       │  ├─ 📝 Content Production     │
-                       │  ├─ 📊 Reporting             │
-                       │  └─ 💰 Billing               │
-                       └─────────────────────────────┘
+┌──────────────┐     natural language      ┌──────────────────────────┐
+│              │  "Acme Corp said yes.  →  │   🤖 AI Agent             │
+│  👤 You      │   Set everything up."     │   (Claude Code)           │
+│  Solo        │ ─────────────────────►    │                          │
+│  Founder     │                           │   reads + reasons about  │
+└──────────────┘                           │   user intent             │
+                                           └────────────┬─────────────┘
+                                                        │ loads
+                                                        ▼
+                                           ┌──────────────────────────┐
+                                           │   📦 asana-api skill      │
+                                           │   (SKILL.md)             │
+                                           │   from BotLearn          │
+                                           │   marketplace            │
+                                           └────────────┬─────────────┘
+                                                        │ structured
+                                                        │ REST calls
+                                                        ▼
+                                           ┌──────────────────────────┐
+                                           │   🌐 maton.ai Gateway     │
+                                           │                          │
+                                           │   Single Bearer token    │
+                                           │   Handles Asana OAuth    │
+                                           │   transparently          │
+                                           └────────────┬─────────────┘
+                                                        │ Asana
+                                                        │ REST API v1.0
+                                                        ▼
+                              ┌─────────────────────────────────────────┐
+                              │  ✅ Asana                                │
+                              │                                         │
+                              │  📁 Client: Acme Corp — SEO Retainer   │
+                              │  ├─ 🔍 Discovery & Audit   (3 tasks)   │
+                              │  ├─ 📝 Content Production  (3 tasks)   │
+                              │  ├─ 📊 Reporting           (3 tasks)   │
+                              │  └─ 💰 Billing             (3 tasks)   │
+                              │                                         │
+                              │  12 tasks · due dates · kickoff note   │
+                              └─────────────────────────────────────────┘
 ```
 
-The key move: **[maton.ai](https://maton.ai) handles the Asana OAuth dance.** The agent never touches Asana credentials directly — it authenticates once with a single `MATON_API_KEY`, and the gateway brokers every call to the Asana REST API.
+**The key move:** maton.ai handles the Asana OAuth dance. The agent never touches Asana credentials directly — one `MATON_API_KEY` gives it full access to the Asana REST surface.
 
 ---
 
@@ -207,7 +225,7 @@ Project_Tracker/
 │   └── asana-skill-demo.mp4      ← 45-second demo video
 │
 └── architecture/
-    └── architecture.excalidraw   ← interactive diagram (open at excalidraw.com)
+    └── architecture.excalidraw   ← source diagram (Excalidraw format)
 ```
 
 ---
