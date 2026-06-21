@@ -130,7 +130,7 @@ The `asana-api` skill is a 1,336-line instruction file that teaches your AI agen
 - **Search** — find anything across your entire workspace in natural language
 - **Attachments** — link files, briefs, and assets directly to tasks
 
-➡️ **Full reference:** [`skill/SKILL.md`](skill/SKILL.md)
+➡️ **Full reference:** [`skill/SKILL.md`](https://github.com/kaddynator/Project_Tracker/blob/main/skill/SKILL.md)
 
 ---
 
@@ -200,7 +200,7 @@ Project_Tracker/
 ├── LICENSE                       ← MIT
 │
 ├── skill/
-│   └── SKILL.md                  ← full asana-api skill (1,336 lines)
+│   └── SKILL.md                  ← full asana-api skill (1,336 lines) — github.com/kaddynator/Project_Tracker/blob/main/skill/SKILL.md
 │
 ├── demo/
 │   ├── demo-script.sh            ← runnable bash demo
@@ -210,7 +210,8 @@ Project_Tracker/
 │   └── asana-skill-demo.mp4      ← 45-second demo video
 │
 └── architecture/
-    └── architecture.excalidraw   ← source diagram (Excalidraw format)
+    ├── architecture.excalidraw   ← system architecture diagram (Excalidraw)
+    └── presentation.excalidraw   ← 7-slide hackathon deck (Excalidraw)
 ```
 
 ---
