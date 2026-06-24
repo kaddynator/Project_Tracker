@@ -211,7 +211,15 @@ Project_Tracker/
 │
 └── architecture/
     ├── architecture.excalidraw   ← system architecture diagram (Excalidraw)
-    └── presentation.excalidraw   ← 7-slide hackathon deck (Excalidraw)
+    ├── architecture.svg          ← rendered architecture diagram
+    ├── presentation.excalidraw   ← 7-slide hackathon deck (Excalidraw source)
+    ├── slide_1.svg               ← The Hook
+    ├── slide_2.svg               ← The Problem
+    ├── slide_3.svg               ← The Solution
+    ├── slide_4.svg               ← The Live Demo
+    ├── slide_5.svg               ← How It Works
+    ├── slide_6.svg               ← What Else It Can Do
+    └── slide_7.svg               ← The Closer
 ```
 
 ---

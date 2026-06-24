@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+<defs>
+  <style>text { font-family: "Segoe UI", system-ui, sans-serif; }</style>
+</defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" ry="0" fill="#1e1e2e" stroke="none" stroke-width="0"/>
+<text x="64.0" y="84.0" font-size="44" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">The Live Demo</text>
+<text x="64.0" y="118.0" font-size="22" fill="#94a3b8" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">5 API calls → a full project structure</text>
+<rect x="64" y="160" width="560" height="460" rx="16" ry="16" fill="#27293d" stroke="#6366f1" stroke-width="2"/>
+<text x="96.0" y="204.0" font-size="20" fill="#6366f1" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">5 API CALLS</text>
+<text x="96.0" y="252.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">1 · Create project</text>
+<text x="570.0" y="250.0" font-size="18" fill="#94a3b8" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">×1</text>
+<text x="96.0" y="306.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">2 · Add sections</text>
+<text x="570.0" y="304.0" font-size="18" fill="#f59e0b" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">×4</text>
+<text x="96.0" y="360.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">3 · Create tasks</text>
+<text x="570.0" y="358.0" font-size="18" fill="#f59e0b" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">×12</text>
+<text x="96.0" y="414.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">4 · Assign to sections</text>
+<text x="570.0" y="412.0" font-size="18" fill="#f59e0b" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">×12</text>
+<text x="96.0" y="468.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">5 · Post kickoff comment</text>
+<text x="570.0" y="466.0" font-size="18" fill="#94a3b8" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">×1</text>
+<line x1="96.0" y1="500.0" x2="592.0" y2="500.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="96.0" y="544.0" font-size="20" fill="#22c55e" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">30 calls · one sentence</text>
+<rect x="656" y="160" width="560" height="460" rx="16" ry="16" fill="#27293d" stroke="#22c55e" stroke-width="2"/>
+<text x="688.0" y="204.0" font-size="20" fill="#22c55e" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">WHAT APPEARS IN ASANA</text>
+<text x="688.0" y="262.0" font-size="22" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">📁 Acme Corp — SEO Retainer</text>
+<text x="712.0" y="320.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">├─ 🔍 Discovery &amp; Audit</text>
+<text x="712.0" y="370.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">├─ 📝 Content Production</text>
+<text x="712.0" y="420.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">├─ 📊 Reporting</text>
+<text x="712.0" y="470.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">└─ 💰 Billing</text>
+<text x="712.0" y="530.0" font-size="18" fill="#94a3b8" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">4 sections · 12 tasks · all assigned</text>
+<text x="640.0" y="684.0" font-size="28" fill="#f59e0b" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">Built live. Nothing mocked.</text>
+</svg>

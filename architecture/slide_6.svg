@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+<defs>
+  <style>text { font-family: "Segoe UI", system-ui, sans-serif; }</style>
+</defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" ry="0" fill="#1e1e2e" stroke="none" stroke-width="0"/>
+<text x="64.0" y="92.0" font-size="44" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">What Else It Can Do</text>
+<text x="64.0" y="126.0" font-size="22" fill="#94a3b8" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">Not one trick — the whole lifecycle.</text>
+<rect x="64" y="180" width="368" height="340" rx="16" ry="16" fill="#27293d" stroke="#6366f1" stroke-width="2"/>
+<text x="96.0" y="226.0" font-size="18" fill="#6366f1" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">MONDAY</text>
+<text x="96.0" y="288.0" font-size="40" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">📋</text>
+<text x="96.0" y="336.0" font-size="24" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">Monday morning review</text>
+<text x="96.0" y="379.0" font-size="19" fill="#94a3b8" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">&quot;What&#x27;s overdue? What needs to move this week?&quot;</text>
+<text x="96.0" y="484.0" font-size="18" fill="#22c55e" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">→ Agent surfaces it instantly</text>
+<rect x="456" y="180" width="368" height="340" rx="16" ry="16" fill="#27293d" stroke="#f59e0b" stroke-width="2"/>
+<text x="488.0" y="226.0" font-size="18" fill="#f59e0b" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">MONTH-END</text>
+<text x="488.0" y="288.0" font-size="40" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">🧾</text>
+<text x="488.0" y="336.0" font-size="24" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">End of month</text>
+<text x="488.0" y="379.0" font-size="19" fill="#94a3b8" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">Agent queries tasks, drafts the report, schedules the invoice.</text>
+<text x="488.0" y="484.0" font-size="18" fill="#22c55e" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">→ Reporting + billing, done</text>
+<rect x="848" y="180" width="368" height="340" rx="16" ry="16" fill="#27293d" stroke="#ef4444" stroke-width="2"/>
+<text x="880.0" y="226.0" font-size="18" fill="#ef4444" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">WEBHOOKS</text>
+<text x="880.0" y="288.0" font-size="40" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">⚡</text>
+<text x="880.0" y="336.0" font-size="24" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">When a task slips</text>
+<text x="880.0" y="379.0" font-size="19" fill="#94a3b8" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">Agent gets notified and reacts — no one watching the board.</text>
+<text x="880.0" y="484.0" font-size="18" fill="#22c55e" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">→ It moves before you notice</text>
+<text x="640.0" y="616.0" font-size="26" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">The intake flow was Slide 3. This skill covers the entire lifecycle.</text>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+<defs>
+  <style>text { font-family: "Segoe UI", system-ui, sans-serif; }</style>
+</defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" ry="0" fill="#1e1e2e" stroke="none" stroke-width="0"/>
+<text x="640.0" y="118.0" font-size="28" fill="#94a3b8" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">WHEN YOU CLOSE A NEW CLIENT…</text>
+<text x="640.0" y="230.0" font-size="90" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">⏱️</text>
+<text x="640.0" y="390.0" font-size="130" fill="#f59e0b" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">30 MINUTES</text>
+<text x="640.0" y="470.0" font-size="40" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">gone. On admin. Every. Single. Time.</text>
+<line x1="490.0" y1="510.0" x2="790.0" y2="510.0" stroke="#6366f1" stroke-width="3"/>
+<text x="640.0" y="612.0" font-size="52" fill="#94a3b8" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">Sound familiar?</text>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+<defs>
+  <style>text { font-family: "Segoe UI", system-ui, sans-serif; }</style>
+</defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" ry="0" fill="#1e1e2e" stroke="none" stroke-width="0"/>
+<text x="640.0" y="99.0" font-size="44" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">The hidden tax on every solopreneur</text>
+<rect x="80" y="160" width="360" height="320" rx="16" ry="16" fill="#2a2a3e" stroke="#f59e0b" stroke-width="2"/>
+<text x="260.0" y="235.0" font-size="50" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">⏳</text>
+<text x="260.0" y="305.0" font-size="40" fill="#f59e0b" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">5 hrs/month</text>
+<text x="260.0" y="356.0" font-size="26" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">30 min × 10 clients = pure admin, every month.</text>
+<rect x="460" y="160" width="360" height="320" rx="16" ry="16" fill="#2a2a3e" stroke="#ef4444" stroke-width="2"/>
+<text x="640.0" y="235.0" font-size="50" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">🧠</text>
+<text x="640.0" y="301.0" font-size="36" fill="#ef4444" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">Mental whiplash</text>
+<text x="640.0" y="356.0" font-size="26" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">From &#x27;I just closed a deal!&#x27; to soul-crushing data entry.</text>
+<rect x="840" y="160" width="360" height="320" rx="16" ry="16" fill="#2a2a3e" stroke="#6366f1" stroke-width="2"/>
+<text x="1020.0" y="235.0" font-size="50" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">📈</text>
+<text x="1020.0" y="303.0" font-size="38" fill="#6366f1" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">It gets worse</text>
+<text x="1020.0" y="356.0" font-size="26" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">The more you grow, the more admin buries you.</text>
+<text x="640.0" y="606.0" font-size="46" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">You didn&#x27;t go solo to become a data-entry clerk.</text>
+<line x1="340.0" y1="635.0" x2="940.0" y2="635.0" stroke="#f59e0b" stroke-width="4"/>
+</svg>

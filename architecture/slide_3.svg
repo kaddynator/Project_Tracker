@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#6366f1"/></marker>
+  <style>text { font-family: "Segoe UI", system-ui, sans-serif; }</style>
+</defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" ry="0" fill="#1e1e2e" stroke="none" stroke-width="0"/>
+<text x="640.0" y="96.0" font-size="46" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">Say one sentence. Done.</text>
+<rect x="90" y="150" width="520" height="230" rx="16" ry="16" fill="#2a2a3e" stroke="#6366f1" stroke-width="2"/>
+<text x="120.0" y="201.0" font-size="36" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">💬</text>
+<text x="120.0" y="245.0" font-size="30" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">&quot;Acme Corp said yes to the 3-month SEO retainer.</text>
+<text x="120.0" y="284.0" font-size="30" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">Set everything up in Asana.&quot;</text>
+<text x="120.0" y="370.0" font-size="22" fill="#94a3b8" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">— you, in 5 seconds</text>
+<line x1="635.0" y1="265.0" x2="755.0" y2="265.0" stroke="#6366f1" stroke-width="6" marker-end="url(#arr)"/>
+<text x="700.0" y="318.0" font-size="22" fill="#94a3b8" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">AI agent</text>
+<rect x="790" y="150" width="400" height="300" rx="16" ry="16" fill="#14321f" stroke="#22c55e" stroke-width="3"/>
+<text x="990.0" y="222.0" font-size="50" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">✅</text>
+<text x="990.0" y="270.0" font-size="30" fill="#22c55e" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">Created in Asana</text>
+<text x="840.0" y="311.0" font-size="26" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">📁 1 project</text>
+<text x="840.0" y="346.0" font-size="26" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">📑 4 sections</text>
+<text x="840.0" y="381.0" font-size="26" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">✔️ 12 tasks</text>
+<text x="840.0" y="416.0" font-size="26" fill="#f8fafc" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">💵 3 invoices</text>
+<rect x="490" y="560" width="300" height="80" rx="16" ry="16" fill="#6366f1" stroke="#6366f1" stroke-width="0"/>
+<text x="640.0" y="620.0" font-size="38" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">⚡ &lt; 30 seconds</text>
+<text x="640.0" y="689.0" font-size="24" fill="#94a3b8" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">From &#x27;yes&#x27; to fully set up — before your coffee cools.</text>
+</svg>

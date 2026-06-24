@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+<defs>
+  <style>text { font-family: "Segoe UI", system-ui, sans-serif; }</style>
+</defs>
+<rect x="0" y="0" width="1280" height="720" rx="0" ry="0" fill="#1e1e2e" stroke="none" stroke-width="0"/>
+<text x="1244.0" y="54.0" font-size="18" fill="#94a3b8" font-family="Georgia, serif" text-anchor="end" dominant-baseline="auto">Built by KarthikBot</text>
+<text x="120.0" y="246.0" font-size="96" fill="#6366f1" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">“</text>
+<text x="640.0" y="268.0" font-size="48" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">Your AI agent is your PM,</text>
+<text x="640.0" y="334.0" font-size="48" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">ops assistant, and billing clerk.</text>
+<text x="640.0" y="412.0" font-size="52" fill="#6366f1" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">Give it hands.</text>
+<rect x="232" y="470" width="248" height="64" rx="16" ry="16" fill="#27293d" stroke="#6366f1" stroke-width="2"/>
+<text x="356.0" y="510.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">1,336 lines of skill</text>
+<rect x="516" y="470" width="248" height="64" rx="16" ry="16" fill="#27293d" stroke="#f59e0b" stroke-width="2"/>
+<text x="640.0" y="510.0" font-size="20" fill="#f8fafc" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">12 API resource types</text>
+<rect x="800" y="470" width="248" height="64" rx="16" ry="16" fill="#27293d" stroke="#22c55e" stroke-width="2"/>
+<text x="924.0" y="512.0" font-size="22" fill="#22c55e" font-family="Georgia, serif" text-anchor="middle" dominant-baseline="auto">&lt; 30 seconds</text>
+<text x="64.0" y="680.0" font-size="24" fill="#6366f1" font-family="Georgia, serif" text-anchor="start" dominant-baseline="auto">🤖 BotLearn</text>
+<text x="1216.0" y="680.0" font-size="24" fill="#f8fafc" font-family="Georgia, serif" text-anchor="end" dominant-baseline="auto">Install: botlearn.ai → asana-api</text>
+</svg>
